@@ -25,7 +25,7 @@ header{
     width: 150px;
     position: relative;
     left: 1200px;
-    top: -70px;
+    top: -80px;
 }
 .navega{
     display: block;
@@ -47,9 +47,22 @@ section{
     left: 300px;
     font-size: 25px;
 }
+article{
+    padding: 20px;
+}
 li{
     margin: 25px;
     list-style-type: none;
 }
-
-
+.contacto1{
+    position: absolute;
+    top: 275px;
+    left: 300px;
+    font-size: 25px;
+}
+.contacto2{
+    position: absolute;
+    top: 345px;
+    left: 300px;
+    font-size: 25px;
+}
