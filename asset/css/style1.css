@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-weight: 300px;
 }
 header{
     background:url(../img/design1_image1.jpg);
@@ -27,7 +28,7 @@ header{
     left: 1200px;
     top: -80px;
 }
-.navega{
+.navega1, .navega2, .navega3{
     display: block;
     padding: 15px;
 }
@@ -50,19 +51,17 @@ section{
 article{
     padding: 20px;
 }
+h3{
+    font-style: italic;
+    font-weight: 700;
+}
 li{
     margin: 25px;
     list-style-type: none;
 }
-.contacto1{
-    position: absolute;
-    top: 275px;
-    left: 300px;
-    font-size: 25px;
+.contact{
+    transform: translate(175px,40px);
 }
-.contacto2{
-    position: absolute;
-    top: 345px;
-    left: 300px;
+.contacto1, .contacto2{
     font-size: 25px;
 }

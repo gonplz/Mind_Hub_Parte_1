@@ -1,0 +1,93 @@
+ @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    font-family: 'Comic Neue', cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+.titulo_principal{
+    position: relative;
+    font-size: 75px;
+    font-weight: 700;
+    font-style: italic;
+    top: -90px;
+}
+header{
+    background:url(../img/design1_image2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    position: relative;
+    top: 90px;
+}
+h1{
+    font-size: 3rem;
+}
+.titulo_2{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    padding: 5px 0px;
+    border-style: groove;
+    border-color: rgb(221,221,221);
+    position: relative;
+    top: 90px;
+}
+.logo{
+    width: 150px;
+    position: relative;
+    left: 120px;
+    top: 125px;
+}
+.navega1, .navega2, .navega3{
+    padding: 10px;
+    background-color: rgb(65, 156, 209);
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.navegador{
+    position:absolute;
+    top: 70px;
+    left: 1100px;
+    font-size: 25px;
+}
+section{
+    position: absolute;
+    top: 350px;
+    left: 390px;
+    font-size: 25px;
+}
+article{
+    padding: 20px;
+    width: 900px;
+}
+h3{
+    font-style: italic;
+    font-weight: 700;
+}
+li{
+    margin: 25px;
+    list-style-type: none;
+}
+.active{
+    text-decoration: none;
+    background-color: rgb(81, 218, 159);
+}
+.contact{
+    transform: translate(175px,45px);
+}
+.contacto1, .contacto2{
+    font-size: 25px;
+}
+.navega1:hover, .navega2:hover, .navega3:hover{
+    background-color: rgb(81, 218, 159);
+    
+}
