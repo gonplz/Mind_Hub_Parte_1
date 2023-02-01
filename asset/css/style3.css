@@ -1,13 +1,18 @@
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* ESTILO GENERAL DE LA PAGINA */
+/* ................................................................................. */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-  * {
+* {
       font-family: 'Open Sans', sans-serif;
       padding: 0;
       margin: 0;
       box-sizing: border-box;
       font-weight: 600;
   }
-  .titulo_principal{
+
+  /* Encabezado general Titulo, Imagner Baner y logo */
+
+.titulo_principal{
     position: relative;
     text-align: center;
     font-size: 75px;
@@ -26,24 +31,15 @@ header{
 h1{
     font-size: 3rem;
 }
-.titulo_2{
-    background-color: rgb(0, 0, 0);
-    color:rgb(255, 255, 255);
-    text-align: center;
-    font-weight: 700;
-    font-size: 38px;
-    padding: 5px 0px;
-    border-style: groove;
-    border-color: rgb(141, 141, 141);
-    position: relative;
-    top: 90px;
-}
 .logo{
     position: relative;
     width: 125px;
     left: 700px;
     top: 600px;
 }
+
+/* Menú del navegador y las funciones "active" */
+
 .navega1, .navega2, .navega3, .navega4, .navega5{
     display: block;
     margin: 10px 0px;
@@ -73,7 +69,22 @@ h1{
     left: 90px;
     font-size: 25px;
 }
-.main{
+
+/* Estilos propios de la tarjeta Home/Index con el titulo */
+
+.titulo_2{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    padding: 5px 0px;
+    border-style: groove;
+    border-color: rgb(141, 141, 141);
+    position: relative;
+    top: 90px;
+}
+.container{
     background-color: rgb(224, 224, 224);
     box-shadow: 2px 2px 3px 3px gray;
     color: rgb(48, 48, 48);
@@ -85,10 +96,13 @@ h1{
     top: 390px;
     left: 390px;
 }
-.section{
+.events{
     display: flex;
     flex-direction: column;
 }
+
+/* ................................................................................. */
+
 article {
     padding: 20px;
     width: 900px;
