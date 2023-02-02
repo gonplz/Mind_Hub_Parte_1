@@ -11,31 +11,42 @@
   }
 
   /* Encabezado general Titulo, Imagner Baner y logo */
-
+header{
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .titulo_principal{
-    position: relative;
+    position: absolute;
     text-align: center;
     font-size: 75px;
     font-weight: 700;
     font-style: italic;
-    top: -100px;
 }
-header{
+.banner{
     background:url(../img/design1_image2.jpg);
     background-size: cover;
     background-position: center;
     height: 200px;
-    position: relative;
-    top: 90px;
+    width: 100%;
 }
 h1{
     font-size: 3rem;
 }
 .logo{
-    position: relative;
+    /* position: relative; */
     width: 125px;
     left: 700px;
-    top: 600px;
+    top: 60px;
+    z-index: 2;
+}
+.box{
+    display: inline-block;
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    height: 30px;
+    z-index: 1;
 }
 
 /* Menú del navegador y las funciones "active" */
@@ -57,32 +68,29 @@ h1{
     background-color: rgb(81, 218, 159);
 }
 .active{
-    position: relative;
     display: none;
     text-decoration: none;
     background-color: rgb(81, 218, 159);
 }
 .navegador{
     padding: 10px;
-    position:absolute;
-    top: 400px;
-    left: 90px;
     font-size: 25px;
 }
 
 /* Estilos propios de la tarjeta Home/Index con el titulo */
 
+main{
+    padding: 50px 0 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
 .titulo_2{
-    background-color: rgb(0, 0, 0);
-    color:rgb(255, 255, 255);
     text-align: center;
     font-weight: 700;
     font-size: 38px;
-    padding: 5px 0px;
-    border-style: groove;
-    border-color: rgb(141, 141, 141);
     position: relative;
-    top: 90px;
+    background-color: rgb(191 191 176);
+    border-radius: 20px 20px 0px 0px;
 }
 .container{
     background-color: rgb(224, 224, 224);
@@ -90,23 +98,26 @@ h1{
     color: rgb(48, 48, 48);
     border-radius: 20px;
     font-size: 25px;
-    margin-bottom: 100px;
     display: flex;
-    position: absolute;
-    top: 390px;
-    left: 390px;
+    flex-direction: column;
+    object-fit: contain;
 }
 .events{
     display: flex;
     flex-direction: column;
 }
-
+.foot{
+    width: 800px;
+    align-self: center;
+    border-top: 5px solid;
+    border-radius: 0px 0px 20px 20px;
+}
 /* ................................................................................. */
 
-article {
+/* article {
     padding: 20px;
     width: 900px;
-}
+} */
 h3{
     font-style: italic;
     font-weight: 700;
