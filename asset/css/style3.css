@@ -52,7 +52,7 @@ h1 {
 
 /* Menú del navegador y las funciones "active" */
 
-.navega1,.navega2,.navega3,.navega4,.navega5 {
+.navega1,.navega2,.navega3,.navega4,.navega5, .navega6{
     display: block;
     margin: 10px 0px;
     padding: 10px;
