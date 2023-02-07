@@ -101,14 +101,13 @@ h3 {
 }
 .container {
     background-color: rgb(224, 224, 224);
-    box-shadow: 2px 4px 5px rgb(194, 207, 8);
+    box-shadow: 5px 5px 5px rgb(100, 98, 84);
     border: 5px solid rgb(48, 48, 48);
     color: rgb(48, 48, 48);
     border-radius: 20px;
     font-size: 25px;
     display: flex;
     flex-direction: column;
-    object-fit: contain;
 }
 .width_general {
     width: 810px;
@@ -179,4 +178,34 @@ td,th {
 span{
     font-style: italic;
     font-weight: 700;
+}
+
+/* /Definimos la posicion del mapa/ */
+
+.maps {
+    visibility: hidden;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+.map_position_top{
+    top: 20%;
+}
+.map_position_center{
+    top: 40%;
+}
+.map_position_bottom{
+    top: 50%;
+}
+
+/* /hacemos visible el mapa/ */
+
+.visual_map:hover .maps {
+    visibility: visible;
+    transition: all 0.5s linear;
+}
+iframe{
+    border-radius: 0 0 20px 20px;
+    width: 400px;
+    height: 300px;
 }
