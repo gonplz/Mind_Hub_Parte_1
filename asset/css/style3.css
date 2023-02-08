@@ -69,7 +69,6 @@ h1 {
     background-color: rgb(81, 218, 159);
 }
 .active {
-    display: none;
     text-decoration: none;
     background-color: rgb(81, 218, 159);
 }
@@ -108,15 +107,6 @@ h3 {
     font-size: 25px;
     display: flex;
     flex-direction: column;
-}
-.width_general {
-    width: 810px;
-}
-.padding_general {
-    padding: 20px;
-}
-.width_rules {
-    width: 820px;
 }
 
 /* imagen de las tarjetas  */
@@ -175,9 +165,25 @@ td,th {
 
 /* ........Cambios en general.... */
 
-span{
+.width_general {
+    width: 810px;
+}
+.padding_general {
+    padding: 20px;
+}
+.width_rules {
+    width: 820px;
+}
+.bold{
     font-style: italic;
     font-weight: 700;
+}
+.padding_special{
+padding-top: 30px;
+}
+.items_center{
+    display: flex;
+    justify-content: center;
 }
 
 /* /Definimos la posicion del mapa/ */
@@ -209,3 +215,6 @@ iframe{
     width: 400px;
     height: 300px;
 }
+
+/* Modificando el registro */
+

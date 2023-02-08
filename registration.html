@@ -22,7 +22,7 @@
 
     <main>
         <nav class="navegador">
-            <a class="navega1 active" href="./index.html">Home</a>
+            <a class="navega1" href="./index.html">Home</a>
             <a class="navega2" href="./about.html">About Us</a>
             <a class="navega3" href="./contact.html">Contact</a>
             <a class="navega4" href="./rules.html">Rules</a>
@@ -31,14 +31,147 @@
         </nav>
 
         <section class="container">
-            <h2 class="titulo_2">Registration</h2>
-            <article>
-               
-            </article>
+
+            <h2 class="titulo_2">Registration Form</h2>
+
+            <div class="padding_general width_general">
+
+                <form action="./show_data.html" method="get">
+                    <fieldset class="padding_general">
+                        <legend class="bold">Personal Data</legend>
+                        <ul class="li_none">
+                            <li><label for="name">Player's First Name</label>
+                                <input type="text" name="name" id="name">
+                            </li>
+
+                            <li><label for="lastname">Last Name:</label>
+                                <input type="text" name="lastname" id="lastname">
+                            </li>
+
+                            <li><label for="street">Street Address</label>
+                                <input type="text" name="street" id="street">
+                            </li>
+
+                            <li><label for="city">City</label>
+                                <input type="text" name="city" id="city">
+                            </li>
+
+                            <li><label for="zipcode">Zip Code</label>
+                                <input type="text" name="zipcode" id="zipcode">
+                            </li>
+
+                            <li><label for="birth">Birth Day</label>
+                                <input type="date" name="birth" id="birth">
+                            </li>
+
+                            <li><label>Gender:</label>
+                                <label for="female">Female</label>
+                                <input type="radio" name="gender" id="female" value="Female">
+                                <label for="male">Male</label>
+                                <input type="radio" name="gender" id="male" value="Male">
+                            </li>
+                        </ul>
+                    </fieldset>
+
+                    <fieldset class="padding_general">
+                        <legend class="bold">Wich elementary school do you live near?</legend>
+                        <label>
+                            <select name="school">
+                                <option value="empty">Choose your option</option>
+                                <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                                <option value="Greenbay">Greenbay</option>
+                                <option value=" Howard A Yeguer"> Howard A Yeguer</option>
+                                <option value="Marjorie P Hart">Marjorie P Hart</option>
+                                <option value=" North Elementary"> North Elementary</option>
+                                <option value="South Elementary">South Elementary</option>
+                            </select>
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="padding_general">
+                        <legend class="bold">What position(s) do you normally play?(check all that apply)</legend>
+                        <ul class="li_none">
+                            <li><label for="forward">Forward</label>
+                                <input type="checkbox" name="position" id="forward" value="Forward">
+                            </li>
+
+                            <li><label for="midfield">Midfield</label>
+                                <input type="checkbox" name="position" id="midfield" value="Midfield">
+                            </li>
+
+                            <li><label for="defense">Defense</label>
+                                <input type="checkbox" name="position" id="defense" value="Defense">
+                            </li>
+
+                            <li><label for="goalkeeper">Goalkeeper</label>
+                                <input type="checkbox" name="position" id="goalkeeper" value="Goalkeeper">
+                            </li>
+                        </ul>
+                    </fieldset>
+
+                    <fieldset class="padding_general">
+                        <legend class="bold">Uniform Size</legend>
+                        <ul class="li_none">
+                            <li><label for="youthsmall">Youth Small</label>
+                                <input type="radio" name="size" id="youthsmall" value="Youth Small">
+                            </li>
+                            <li><label for="youthmedium">Youth Medium</label>
+                                <input type="radio" name="size" id="youthmedium" value="Youth Medium">
+                            </li>
+                            <li><label for="youthlarge">Youth Large</label>
+                                <input type="radio" name="size" id="youthlarge" value="Youth Large">
+                            </li>
+                            <li><label for="samll">Small</label>
+                                <input type="radio" name="size" id="samll" value="Small">
+                            </li>
+                            <li><label for="medium">Medium</label>
+                                <input type="radio" name="size" id="medium" value="Medium">
+                            </li>
+                            <li><label for="large">Large</label>
+                                <input type="radio" name="size" id="large" value="Large">
+                            </li>
+                            <li><label for="extralarge">Extra-Large</label>
+                                <input type="radio" name="size" id="extralarge" value="Extra-Large">
+                            </li>
+                        </ul>
+
+                    </fieldset>
+
+                    <fieldset class="padding_general">
+                        <legend class="bold">Permission to Play</legend>
+                        <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide
+                            by
+                            all the rules of Mighty Ducks Hockey League (MDHL). In recognizing the posibility of
+                            physical
+                            injury associated with hockey and in consideration for the "League" accepting the registrant
+                            for
+                            its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify
+                            MDHL, their employees and associated personnel and volunteers, including the facilities used
+                            for
+                            practices and games, againts any claim by or on behalf of the registrant as a result of the
+                            registrant's participation in the programand/orbeing transported to or from MDHL sponsored
+                            activities, which transportation.</p>
+                        <p>By entering your name below, I hereby agree and authorize rhe above. In addition, by entering
+                            your name below,I also acknowledge that I have read the cancellation policy and agree to its
+                            terms.</p>
+
+                        <div class="padding_special">
+                            <label for="parent">Parent/GuardianSignature:</label>
+                            <input type="text" name="parent" id="parent">
+                            <label for="date">Date:</label>
+                            <input type="date" name="date" id="date">
+                        </div>
+
+                    </fieldset>
+                    <div class="items_center padding_special">
+                    <input type="submit" value="Send"></div>
+                </form>
+            </div>
         </section>
         <div class="logo_contain">
             <img class="logo" src="./asset/img/Logo_Mighty_ducks_01.png" alt="logo">
         </div>
     </main>
 </body>
+
 </html>
